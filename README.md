@@ -12,7 +12,7 @@ npm run dev
 
 ## Deploy
 
-Hosted on GitHub Pages; `.github/workflows/deploy.yml` builds and deploys on every push to `main`.
+Hosted on GitHub Pages from the `gh-pages` branch. Deploy with `./scripts/deploy.sh` (builds, then force-pushes `dist` to `gh-pages`).
 
 
 ## Database
