@@ -12,11 +12,8 @@ npm run dev
 
 ## Deploy
 
-Hosted on Cloudflare Pages, built from `main`:
+Hosted on GitHub Pages; `.github/workflows/deploy.yml` builds and deploys on every push to `main`.
 
-- Build command: `npm run build`
-- Output directory: `dist`
-- Environment variables: `VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`, `VITE_SUPABASE_PROJECT_ID`
 
 ## Database
 
